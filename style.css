@@ -1,0 +1,73 @@
+body {
+    background-image: url(./assets/grey-background.jpeg);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 1rem;
+    margin-right: 25rem;
+    margin-left: 25rem; 
+    margin-top: 10rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    /* margin-bottom: 1rem; */
+    min-width: 40%;
+    /* width: 30vw; */
+    /* height: 40vh; */
+}
+.avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.profilePic {
+    min-width: 25%;
+    max-width: 18%;
+    border-radius: 100%;
+}
+
+h2 {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-top: 1rem;
+}
+/* =========================== */
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+
+}
+
+.icons {
+    padding: 0 1.5rem;
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #36454F;
+}
+
+/* =========================== */
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 1680px) {
+    
+}
